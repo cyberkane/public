@@ -24,6 +24,6 @@ def mul (aFeet,aInch,factor):
 def div (aFeet,aInch,factor):
     aFeets = aFeet * 12
     aInches = aInch
-    a = abs(aFeets + aInches) / factor // 12
-    b = int(aFeets + aInches) / factor % 12
+    a = abs(aFeets + aInches) // 12 / factor 
+    b = abs(aFeets + aInches) % 12 / factor
     return (a, b)

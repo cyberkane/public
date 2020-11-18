@@ -1,4 +1,4 @@
-import mathl.core as core
+import imperial_distance.math.core as core
 
 class Test_Calc:
     def __init__(self, afeet, ainch, bfeet, binch):

@@ -1,5 +1,9 @@
-import mathl.core as cr
-import mathl.test as ts
+import sys
+sys.path.append('C:\\Users\\cyber\\OneDrive\\Documents\\Project\\public\\public') 
+print(sys.path)
+
+import imperial_distance.math.core as cr
+import imperial_distance.math.test as ts
 import ios.to_metric as mt
 import ios.to_str as st
 
